@@ -11,7 +11,7 @@ return array;
 function whileLoops(n) {
   while (whileLoops(n)) {
   console.log(--n)
-  return 'done';
-}
+  }
+return 'done';
 }
 
