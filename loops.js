@@ -13,6 +13,6 @@ function whileLoops(n) {
 }
 
 while (whileLoops(n)) {
-  console.log(n--)
+  console.log(--n)
   return 'done';
 }
