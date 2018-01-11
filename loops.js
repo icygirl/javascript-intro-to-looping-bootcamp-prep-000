@@ -8,11 +8,12 @@ function forLoop(array) {
 }
 return array;
 }
-function whileLoops(n) {
-  return Math.random() >= 10;
+
+function whileLoops() {
+  return Math.random() >= 100;
 }
 
-while (whileLoops(n)) {
+while (whileLoops()) {
   console.log(--n)
   return 'done';
 }
